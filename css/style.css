@@ -204,7 +204,9 @@ ul {
 .contentClose{
     display: none;
 }
-
+.main_left_span{
+    display: block;
+}
 @media only screen and (max-width: 375px) {
     nav{
         margin: 0px;
@@ -302,5 +304,7 @@ ul {
         background-color: rgba(0, 0, 0, 0.596);
     }
 
-  
+    .main_left_span{
+        display: inline-block;
+    }
 }
